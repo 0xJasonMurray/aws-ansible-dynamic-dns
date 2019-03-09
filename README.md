@@ -8,6 +8,14 @@ Can be used as an alternative to dynamic DNS services such as afraid.org, noip.c
 
 ## Configuration
 
+### Requirements
+
+Install boto python library:
+
+```
+pip3 install boto
+```
+
 ### AWS Authentication and Authorization
 
 Create the following environment variables by adding to your local shell configuration file such as the $HOME/.bashrc
