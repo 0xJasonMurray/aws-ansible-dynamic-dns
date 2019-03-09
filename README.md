@@ -1,4 +1,4 @@
-# Ansible Playbook to update Dynamic DNS Entries using AWS Route 53
+# Simple Dynamic DNS Client with Ansible and AWS Route 53
 
 ## Overview
 Simple Ansible Playbook to update dynamic DNS entries using AWS Route 53.  Many of the other
