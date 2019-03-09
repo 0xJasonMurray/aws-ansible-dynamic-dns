@@ -19,7 +19,7 @@
             zone: "{{ zone }}"
             record: "{{ record }}"
             type: A
-            ttl: 7200
+            ttl: 300
             value: "{{ json_response.json.ip }}"
             wait: yes
 
