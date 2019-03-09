@@ -1,7 +1,8 @@
 # Ansible Playbook to update Dynamic DNS Entries using AWS Route 53
 
 ## Overview
-Ansible Playbook to update dynamic DNS entries using AWS Route 53.
+Simple Ansible Playbook to update dynamic DNS entries using AWS Route 53.  Many of the other
+systems out there are too complicated for such a simple service.  
 
 Can be used as an alternative to dynamic DNS services such as afraid.org, noip.com, etc.
 
@@ -32,3 +33,9 @@ Run the playbook:
 ```
 ansible-playbook -i hosts dynamic-aws.yaml
 ```
+
+### Automatic Updates
+
+Could be added to cron or Ansible Tower (there is a free 10 host license) for automatic updates.
+
+
