@@ -21,6 +21,7 @@
             type: A
             ttl: 300
             value: "{{ json_response.json.ip }}"
+            overwrite: yes
             wait: yes
 
       - name: debug
