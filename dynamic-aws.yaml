@@ -1,5 +1,5 @@
 ---
-- hosts: local
+- hosts: localhost
   connection: local
   gather_facts: no
   vars:
@@ -9,7 +9,7 @@
   tasks:
       - name: Get Dynamic IP address
         uri: 
-            url: http://api.jasonmurray.org/ip 
+            url: https://api.ipify.org/?format=json
             return_contents: yes
         register: json_response
 
